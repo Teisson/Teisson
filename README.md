@@ -1,4 +1,4 @@
-# 🚀 Marketing Data Engineering Portfolio – Teis Nilsson
+# Marketing Data Engineering Portfolio – Teis Nilsson
 
 Welcome!  
 This portfolio highlights my practical experience in **data engineering, marketing analytics, tracking architecture, and automation** — with a strong foundation in **Python, SQL, and first-party data systems**.
@@ -7,7 +7,7 @@ Drawing from my background in IT, cybersecurity, and 6+ years of running a marke
 
 ---
 
-## 📂 Projects Included
+## Projects Included
 
 ### 1. Marketing Data Pipeline – GA4 → BigQuery → dbt Models
 A production-style pipeline that ingests GA4 event data into BigQuery, transforms it using dbt, and produces clean, analytics-ready tables for attribution, funnel analysis and audience segmentation.
@@ -22,7 +22,7 @@ BigQuery • dbt • SQL • Python • GA4 export • Git • CI/CD
 - Incremental models for scalable performance  
 - Funnel & attribution-ready marts
 
-👉 *See folder:* `ga4_bq_dbt_pipeline/`
+*See folder:* `ga4_bq_dbt_pipeline/`
 
 ---
 
@@ -38,11 +38,11 @@ Python (pandas) • SQL • BigQuery • Scikit-learn (simple baseline model)
 - Audience scoring based on behavioral + transactional features  
 - Ready for export to ad platforms or marketing automation
 
-👉 *See folder:* `crm_segmentation_scoring/`
+*See folder:* `crm_segmentation_scoring/`
 
 ---
 
-## 🧰 Tech & Tools
+## Tech & Tools
 **Languages:** Python, SQL  
 **Cloud & Warehouses:** BigQuery, GCP  
 **Data Modelling:** dbt (Fundamentals), marketing data schemas  
@@ -53,7 +53,7 @@ Python (pandas) • SQL • BigQuery • Scikit-learn (simple baseline model)
 
 ---
 
-## 📬 Contact
+## Contact
 If you're exploring marketing data engineering talent with a strong mix of data, marketing, and security skills — feel free to reach out.
 
 **LinkedIn:** <https://www.linkedin.com/in/teis-nilsson/>  
