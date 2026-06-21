@@ -1,4 +1,4 @@
-# Marketing Data Engineering Portfolio – Teis Nilsson
+#Data Analytics Engineering Portfolio – Teis Nilsson
 
 Welcome!  
 This portfolio highlights my practical experience in **data engineering, marketing analytics, tracking architecture, and automation** — with a strong foundation in **Python, SQL, and first-party data systems**.
