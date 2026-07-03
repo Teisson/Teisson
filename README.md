@@ -4,7 +4,7 @@ Hi, I'm Teis.
 
 I'm an **Analytics Engineer** with experience building modern analytics platforms, semantic models, and first-party data pipelines using **SQL, Python, BigQuery, Dataform, and Power BI**.
 
-My background combines **IT infrastructure, Salesforce development, marketing analytics, and analytics engineering**, giving me experience across the entire analytics lifecycle — from data collection and tracking to transformation, modelling, reporting, and business decision-making.
+My background combines **IT infrastructure, Salesforce development, marketing analytics, and analytics engineering**, giving me experience across the entire analytics lifecycle, from data collection and tracking to transformation, modelling, reporting, and business decision-making.
 
 I enjoy building reliable data products that make analytics easier to **trust, maintain, and use** across an organisation.
 
@@ -126,7 +126,7 @@ Current capabilities include:
 
 ---
 
-# 🛠 Tech Stack
+# Tech Stack
 
 ## Languages
 
