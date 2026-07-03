@@ -8,7 +8,7 @@ My background combines **IT infrastructure, Salesforce development, marketing an
 
 I enjoy building reliable data products that make analytics easier to **trust, maintain, and use** across an organisation.
 
-> **My philosophy is to always leave every system a little better than I found it.**
+> **My philosophy is simple: leave every system a little better than you found it.**
 
 Whether I'm designing a semantic model, improving tracking, or building a reporting layer, my goal is always the same: create solutions that help others make better decisions with less effort.
 
