@@ -2,9 +2,9 @@
 
 Hi, I'm Teis.
 
-I'm an **Analytics Engineer** with experience building modern analytics platforms, semantic models, and first-party data pipelines using **SQL, Python, BigQuery, Dataform, and Power BI**.
+I'm an **Analytics Engineer** with experience building modern analytics platforms, semantic models, and analytics data pipelines using **SQL, Python, BigQuery, Dataform, Microsoft Fabric, and Power BI**.
 
-My background combines **IT infrastructure, Salesforce development, marketing analytics, and analytics engineering**, giving me experience across the entire analytics lifecycle, from data collection and tracking to transformation, modelling, reporting, and business decision-making.
+My background combines **IT infrastructure, Salesforce development, marketing analytics, and analytics engineering**, giving me experience across the entire analytics lifecycle—from data collection and tracking to transformation, modelling, reporting, and business decision-making.
 
 I enjoy building reliable data products that make analytics easier to **trust, maintain, and use** across an organisation.
 
@@ -16,9 +16,9 @@ Whether I'm designing a semantic model, improving tracking, or building a report
 
 # Current Focus
 
-I'm currently expanding my Analytics Engineering portfolio by building projects that demonstrate modern data platform practices.
+I'm currently expanding this portfolio by building production-inspired Analytics Engineering projects that demonstrate modern data platform practices and end-to-end analytics workflows.
 
-Current focus areas:
+Current focus areas include:
 
 - Analytics Engineering
 - Data Modelling
@@ -30,25 +30,41 @@ Current focus areas:
 
 ---
 
-# Featured Projects
+# Portfolio Roadmap
 
-## 1. Customer Analytics Platform (End-to-End Analytics Engineering)
+The repositories below are currently under development and are intended to demonstrate practical Analytics Engineering workflows and best practices.
 
-A production-style Analytics Engineering project demonstrating the complete journey from raw customer event data to business-ready reporting.
+Each project is being built as if it were delivered in a production environment, including architecture documentation, data modelling, testing, semantic layers, and business-oriented reporting.
 
-### Architecture
+Current roadmap:
+
+| Project | Status |
+|----------|--------|
+| Customer Analytics Platform | 🚧 In Progress |
+| CRM Segmentation & Predictive Scoring | Planned |
+| AI Analytics Assistant | 🚧 In Progress |
+
+New projects and improvements will be added continuously as the portfolio evolves.
+
+---
+
+# Customer Analytics Platform *(In Progress)*
+
+An end-to-end Analytics Engineering project demonstrating the journey from raw customer event data to business-ready reporting.
+
+## Planned Architecture
 
 ```text
-Synthetic GA4 Dataset
+Synthetic GA4 Events
         │
         ▼
 Python (Cleaning & Validation)
         │
         ▼
-BigQuery
+BigQuery (Raw Layer)
         │
         ▼
-Dataform / SQL Transformations
+Dataform Transformations
         │
         ▼
 Star Schema
@@ -60,16 +76,18 @@ Semantic Layer
 Power BI Dashboard
 ```
 
-### Project Goals
+## Planned Scope
 
-- Build a production-style ELT pipeline
-- Create reusable transformation models
-- Design a scalable Star Schema
-- Build semantic models for reporting
-- Improve data quality through validation and testing
-- Deliver self-service datasets for business users
+- Production-style ELT pipeline
+- Data validation and quality checks
+- Reusable transformation models
+- Star schema design
+- Semantic reporting layer
+- Self-service reporting datasets
+- Documentation
+- Data dictionary
 
-### Technologies
+## Core Technologies
 
 - Python
 - SQL
@@ -84,11 +102,11 @@ Power BI Dashboard
 
 ---
 
-## 2. CRM Segmentation & Predictive Scoring
+# CRM Segmentation & Predictive Scoring *(Planned)*
 
-A Python + SQL project demonstrating customer segmentation using behavioural and transactional data.
+A Python and SQL project demonstrating customer segmentation using behavioural and transactional data.
 
-### Features
+## Planned Features
 
 - Data cleaning & deduplication
 - Identity resolution
@@ -97,7 +115,7 @@ A Python + SQL project demonstrating customer segmentation using behavioural and
 - Behavioural scoring
 - Export-ready audiences
 
-### Technologies
+## Core Technologies
 
 Python • SQL • BigQuery • Pandas • Scikit-learn
 
@@ -107,17 +125,17 @@ Python • SQL • BigQuery • Pandas • Scikit-learn
 
 ---
 
-## 3. AI Analytics Assistant *(In Progress)*
+# AI Analytics Assistant *(In Progress)*
 
 A Python-based multi-agent system exploring how AI can support Analytics Engineering workflows.
 
-Current capabilities include:
+## Planned Capabilities
 
 - SQL generation
 - Root cause analysis
 - KPI explanations
 - Documentation assistance
-- Data quality checks
+- Data quality validation
 - Business-friendly analytics support
 
 **Repository**
@@ -150,6 +168,7 @@ Current capabilities include:
 - Semantic Models
 - Data Quality
 - Documentation
+- Data Governance
 
 ## Business Intelligence
 
@@ -162,9 +181,9 @@ Current capabilities include:
 - Google Analytics 4
 - Google Tag Manager
 - Server-side Tagging
-- First-party Data
 - Customer Journey Analytics
 - Attribution
+- First-party Data
 
 ## CRM & Automation
 
@@ -193,9 +212,9 @@ Reliable insights come from:
 - Maintainable pipelines
 - Good documentation
 
-Technology matters—but the goal is always the same:
+My goal isn't simply to build dashboards or pipelines.
 
-**Help people make better decisions with data.**
+It's to build data products that people trust and genuinely enjoy using.
 
 ---
 
@@ -213,8 +232,10 @@ Technology matters—but the goal is always the same:
 
 If you're looking for someone who enjoys building modern analytics platforms, designing semantic models, and turning raw data into reliable business insights, I'd be happy to connect.
 
-**LinkedIn**  
+**LinkedIn**
+
 <https://www.linkedin.com/in/teis-nilsson/>
 
-**Email**  
+**Email**
+
 <mailto:teisnilsson@gmail.com>
