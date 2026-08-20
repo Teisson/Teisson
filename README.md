@@ -225,7 +225,7 @@ This project is intentionally planned **after the core data platform**, allowing
 
 - Power BI
 - Looker Studio
-- Tableau *(currently learning)*
+- Tableau
 
 ## Digital Analytics
 
