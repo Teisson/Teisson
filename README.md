@@ -1,4 +1,4 @@
-# <a href="https://github.com/Teisson/ga_project/tree/master">Data Analytics Engineering Portfolio | Teis Nilsson</a>
+# Data Analytics Engineering Portfolio | Teis Nilsson
 
 Hi, I'm Teis.
 
@@ -45,7 +45,7 @@ The projects in this portfolio are designed around **production-inspired enginee
 
 | Project | Status |
 | --- | --- |
-| **Digital Analytics Platform** | 🚧 In Progress |
+| **<a href="https://github.com/Teisson/ga_project/tree/master">Digital Analytics Platform</a>** | 🚧 In Progress |
 | CRM Segmentation & Predictive Scoring | Planned |
 | AI Analytics Assistant | Future Extension |
 
