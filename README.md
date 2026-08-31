@@ -45,8 +45,8 @@ The projects in this portfolio are designed around **production-inspired enginee
 
 | Project | Status |
 | --- | --- |
-| **<a href="https://github.com/Teisson/ga_project/tree/master">Digital Analytics Platform</a>** | 🚧 In Progress |
 |**<a href="https://github.com/Teisson/ase-legacy-lab">Sybase / ASE legacy DB DE lab</a>** | 🚧 In Progress |
+| **<a href="https://github.com/Teisson/ga_project/tree/master">Digital Analytics Platform</a>** | 🚧 In Progress |
 | CRM Segmentation & Predictive Scoring | Planned |
 | AI Analytics Assistant | Future Extension |
 
