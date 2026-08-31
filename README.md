@@ -1,72 +1,108 @@
-# Data Analytics Engineering Portfolio | Teis Nilsson
+# Data & Analytics Engineering Portfolio | Teis Nilsson
 
 Hi, I'm Teis.
 
-I'm an **Analytics Engineer** with experience across analytics, digital platforms, tracking, data transformation, and business intelligence.
+I'm an **Analytics Engineer** with experience across analytics, digital platforms, data transformation, business intelligence, and enterprise systems.
 
-My background spans **IT infrastructure, Salesforce development, marketing analytics, and analytics engineering**, giving me a broad perspective on how data moves from source systems through transformation and modelling to reporting and business decision-making.
+My background spans **IT infrastructure, Salesforce development, marketing analytics, and analytics engineering**, giving me a broad perspective on how data moves from operational source systems through transformation and modelling to reporting and business decision-making.
 
-This portfolio is where I develop those foundations further through **production-inspired Analytics Engineering and Data Engineering projects** using technologies such as **SQL, Python, BigQuery, Dataform, Microsoft Fabric, and Power BI**.
+This portfolio is where I develop those foundations further through **production-inspired Analytics Engineering and Data Engineering projects** using SQL, Python, BigQuery, Dataform, Microsoft Fabric, Power BI, and legacy enterprise technologies.
 
-I enjoy building reliable data products that make analytics easier to **trust, maintain, and use** across an organisation.
+I enjoy building reliable data products that are easy to **trust, maintain, and use**.
 
 > **My philosophy is simple: leave every system a little better than you found it.**
-
-Whether I'm improving a data pipeline, designing a semantic model, investigating data quality, or building a reporting layer, my goal is the same: create solutions that help people make better decisions with less effort.
 
 ---
 
 # Current Focus
 
-I'm currently strengthening my Data Engineering and Analytics Engineering skills by building end-to-end projects around realistic datasets and business problems.
+I'm currently strengthening my Data Engineering and Analytics Engineering skills through hands-on projects built around realistic data and business problems.
 
-Rather than treating individual technologies as isolated skills, my focus is on understanding how they work together across the analytics lifecycle:
+Rather than treating technologies as isolated skills, I focus on how they work together across the data lifecycle:
 
-**Raw Data → Data Quality → Transformation → Modelling → Semantic Layer → Business Intelligence**
+```text
+Source Systems
+      │
+      ▼
+  Ingestion
+      │
+      ▼
+   Raw Data
+      │
+      ▼
+Data Quality
+      │
+      ▼
+Transformation
+      │
+      ▼
+   Modelling
+      │
+      ▼
+Semantic Layer
+      │
+      ▼
+Business Intelligence
+```
 
 Current focus areas include:
 
-- Python for Data Engineering and automation
-- SQL
+- Python for data engineering and automation
+- SQL and relational databases
 - Data profiling and quality
 - Analytics Engineering
-- Data modelling and dimensional design
+- Dimensional modelling
 - ELT pipelines
 - Cloud analytics architecture
 - Semantic models
-- Business Intelligence
 - Git and reproducible development workflows
 
 ---
 
-# Portfolio Roadmap
+# Portfolio Projects
 
-The projects in this portfolio are designed around **production-inspired engineering practices**, with an emphasis on reproducibility, testing, documentation, data quality, maintainability, and business usefulness.
+| Project | Focus | Status |
+| --- | --- | --- |
+| **[SAP ASE Legacy Data Engineering Lab](https://github.com/Teisson/ase-legacy-lab)** | Legacy databases, SQL, transactions, extraction | 🚧 In Progress |
+| **[Digital Analytics Platform](https://github.com/Teisson/ga_project/tree/master)** | Data quality, modelling, analytics engineering | 🚧 In Progress |
+| CRM Segmentation & Predictive Scoring | Customer modelling and feature engineering | Planned |
+| AI Analytics Assistant | AI on top of trusted analytical models | Future Extension |
 
-| Project | Status |
-| --- | --- |
-|**<a href="https://github.com/Teisson/ase-legacy-lab">Sybase / ASE legacy DB DE lab</a>** | 🚧 In Progress |
-| **<a href="https://github.com/Teisson/ga_project/tree/master">Digital Analytics Platform</a>** | 🚧 In Progress |
-| CRM Segmentation & Predictive Scoring | Planned |
-| AI Analytics Assistant | Future Extension |
+---
+
+# SAP ASE Legacy Data Engineering Lab 🚧
+
+A hands-on legacy database lab built around **SAP Adaptive Server Enterprise 16** running in a containerized RHEL environment.
+
+The project started as an exploration of an unfamiliar enterprise database and has developed into a practical environment for understanding legacy data engineering patterns.
+
+Current work includes:
+
+- Relational schema design with primary and foreign keys
+- Analytical SQL, joins, aggregation, and grain
+- Reusable analytical views
+- Transaction and error handling
+- ASE-specific object ownership and database behaviour
+- Bash-based SQL execution
+- Environment-based configuration
+- RHEL and Podman
+- Git-based development and documentation
+
+The transaction experiments explore both successful and failed units of work, including explicit `COMMIT`, `ROLLBACK`, and error handling.
+
+The next stage focuses on **extracting and validating ASE data with Python** and exploring how legacy data can be moved toward a modern analytical platform.
+
+**[View SAP ASE Legacy Data Engineering Lab →](https://github.com/Teisson/ase-legacy-lab)**
 
 ---
 
 # Digital Analytics Platform 🚧
 
-My current primary project is an end-to-end analytics platform built around synthetic digital analytics data inspired by sources such as **GA4, advertising platforms, and conversion systems**.
+My primary long-term portfolio project is an end-to-end analytics platform built around synthetic digital analytics data inspired by sources such as **GA4, advertising platforms, and conversion systems**.
 
-The project begins with intentionally imperfect raw data and follows the process of profiling, validating, transforming, modelling, and eventually serving that data for analytics and reporting.
+The goal is not simply to produce a dashboard, but to explore the engineering decisions required to turn imperfect source data into a **reliable and maintainable analytics product**.
 
-The goal is not simply to produce a dashboard, but to explore the engineering decisions required to turn raw event data into a **reliable and maintainable analytics product**.
-
-## Development Approach
-
-The project is being developed incrementally.
-
-The first stages focus on understanding and profiling the raw datasets before defining cleaning and transformation rules.
-
-As the project develops, these rules will become reproducible transformations, tests, models, and pipeline components.
+## Architecture Direction
 
 ```text
 Synthetic Digital Analytics Data
@@ -110,54 +146,49 @@ The project currently focuses on:
 - Detecting duplicates and potential integrity issues
 - Understanding relationships between datasets
 - Defining data-quality rules before transformation
-- Developing the project through Git-based feature branches
+- Developing through Git-based feature branches
 
-The intention is to **understand the data before changing it** rather than immediately replacing, deleting, or imputing questionable values.
+A core principle of the project is to **understand the data before changing it** rather than immediately replacing, deleting, or imputing questionable values.
 
-## Planned Scope
+## Planned Development
 
 As the project develops, I plan to explore:
 
 - Reproducible data ingestion
 - Data profiling and validation
 - Data-quality rules
-- Cleaning and standardisation
 - SQL transformations
 - Dimensional modelling
 - Fact and dimension tables
 - Automated testing
 - Semantic modelling
+- Incremental processing
 - Business-oriented reporting
 - Pipeline documentation
 - Data dictionaries
-- Incremental processing
 - Cloud deployment
 
 ## Technology Direction
 
-The exact architecture will evolve as the project develops rather than forcing every technology into the solution from the beginning.
+The architecture will evolve as engineering requirements emerge rather than forcing technologies into the solution from the beginning.
 
 Technologies currently used or planned for exploration include:
 
-- Python
-- Pandas
-- SQL
-- BigQuery
-- Dataform
-- Power BI
-- Git / GitHub
+**Python • Pandas • SQL • BigQuery • Dataform • Power BI • Git / GitHub**
 
-Additional technologies may be introduced where they solve an actual engineering problem.
+Additional technologies will be introduced where they solve an actual engineering problem.
+
+**[View Digital Analytics Platform →](https://github.com/Teisson/ga_project/tree/master)**
 
 ---
 
-# CRM Segmentation & Predictive Scoring
+# Future Projects
 
-**Status: Planned**
+## CRM Segmentation & Predictive Scoring
 
-A future Python and SQL project exploring how behavioural, transactional, and customer data can be transformed into useful customer segments and analytical features.
+A planned Python and SQL project exploring how behavioural, transactional, and customer data can be transformed into useful customer-level analytical models.
 
-## Planned Areas
+Planned areas include:
 
 - Data cleaning and deduplication
 - Identity resolution
@@ -168,19 +199,15 @@ A future Python and SQL project exploring how behavioural, transactional, and cu
 - Privacy-aware data handling
 - Export-ready audiences
 
-## Potential Technologies
+Potential technologies:
 
-Python • Pandas • SQL • BigQuery • Scikit-learn
+**Python • Pandas • SQL • BigQuery • Scikit-learn**
 
----
+## AI Analytics Assistant
 
-# AI Analytics Assistant
+A future exploration of how LLMs and agentic workflows can interact with a **trusted analytics environment**.
 
-**Status: Future Extension**
-
-Once the underlying analytics platform is sufficiently developed, I plan to explore how LLMs and agentic workflows can interact with a trusted analytics environment.
-
-Rather than building an isolated chatbot, the goal is to investigate AI as an additional capability on top of a well-defined data platform.
+Rather than building an isolated chatbot, the goal is to investigate AI as an additional capability on top of tested models, documented metrics, and reliable data.
 
 Potential use cases include:
 
@@ -192,64 +219,53 @@ Potential use cases include:
 - SQL assistance
 - Business-friendly analytics exploration
 
-This project is intentionally planned **after the core data platform**, allowing AI components to operate against tested models, documented metrics, and reliable data.
+This is intentionally planned **after the underlying data platform** rather than using AI as a substitute for reliable data engineering.
 
 ---
 
 # Technical Skills
 
-## Languages
+## Data Engineering & Analytics Engineering
 
 - SQL
 - Python
+- Pandas
+- ELT pipelines
+- Data modelling
+- Dimensional modelling
+- Star schemas
+- Semantic models
+- Data quality and validation
+- Data governance
+- API integrations
 
-## Analytics & Data Platforms
+## Data & Analytics Platforms
 
 - Google Cloud Platform
 - BigQuery
 - Dataform
 - Microsoft Fabric
-- API integrations
 
-## Analytics Engineering
-
-- ELT pipelines
-- Data modelling
-- Dimensional modelling
-- Star schema design
-- Semantic models
-- Data quality
-- Documentation
-- Data governance
-
-## Business Intelligence
+## Business Intelligence & Digital Analytics
 
 - Power BI
 - Looker Studio
 - Tableau
-
-## Digital Analytics
-
 - Google Analytics 4
 - Google Tag Manager
 - Server-side tagging
 - Customer journey analytics
 - Attribution
-- First-party data
 
-## CRM & Automation
+## Enterprise Systems & Platform
 
 - Salesforce
 - HubSpot
 - Pipedrive
-- Marketing automation
-
-## Engineering & Platform
-
-- Git
-- GitHub
-- API integrations
+- Git / GitHub
 - IAM principles
+- Linux / RHEL
+- Podman
 
 ## Data & Privacy
 
@@ -278,25 +294,23 @@ A transformation should not exist simply because it makes the data look cleaner.
 
 Likewise, technology should solve a problem rather than become the goal of the project.
 
-My aim is not simply to build dashboards or pipelines.
-
-It's to build **data products that people can trust and genuinely use**.
+My aim is to build **data products that people can trust and genuinely use**.
 
 ---
 
 # Currently Learning
 
-My current development focus is deliberately centred around strengthening the engineering fundamentals behind modern analytics platforms:
+My current development focus is deliberately centred on strengthening the engineering fundamentals behind modern analytics platforms:
 
 - Python for data engineering
-- Pandas and data manipulation
 - Advanced SQL
 - Data profiling and data quality
 - Dimensional modelling
 - Modern Analytics Engineering practices
 - Cloud data architecture
+- Legacy-to-modern data integration
 
-Future areas of exploration include infrastructure as code, orchestration, advanced cloud data engineering, and agentic AI systems.
+Future areas of exploration include orchestration, infrastructure as code, advanced cloud data engineering, and agentic AI systems.
 
 ---
 
@@ -304,10 +318,8 @@ Future areas of exploration include infrastructure as code, orchestration, advan
 
 If you're interested in Analytics Engineering, Data Engineering, modern analytics platforms, or building reliable data products, I'd be happy to connect.
 
-**LinkedIn**
-
+**LinkedIn:**  
 https://www.linkedin.com/in/teis-nilsson/
 
-**Email**
-
+**Email:**  
 teisnilsson@gmail.com
